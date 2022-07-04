@@ -1,0 +1,5 @@
+2022/07/02-00:00:45.100 2934 Reusing MANIFEST C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Service Worker\Database/MANIFEST-000001
+2022/07/02-00:00:45.125 2934 Recovering log #3
+2022/07/02-00:00:45.126 2934 (ignoring error) C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Service Worker\Database/000003.log: dropping 26018 bytes; Corruption: checksum mismatch
+2022/07/02-00:00:45.127 2934 (ignoring error) C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Service Worker\Database/000003.log: dropping 298 bytes; Corruption: missing start of fragmented record(2)
+2022/07/02-00:00:45.127 2934 Reusing old log C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Service Worker\Database/000003.log 

@@ -1,0 +1,4 @@
+2022/07/03-00:00:54.160 2038 Reusing MANIFEST C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Session Storage/MANIFEST-000001
+2022/07/03-00:00:54.170 2038 Recovering log #3
+2022/07/03-00:00:54.170 2038 (ignoring error) C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Session Storage/000003.log: dropping 7882 bytes; Corruption: checksum mismatch
+2022/07/03-00:00:54.170 2038 Reusing old log C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Session Storage/000003.log 

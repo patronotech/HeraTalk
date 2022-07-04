@@ -1,0 +1,24 @@
+2022/07/02-00:00:45.107 2980 Reusing MANIFEST C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Local Storage\leveldb/MANIFEST-000001
+2022/07/02-00:00:45.123 2980 Recovering log #500
+2022/07/02-00:00:45.124 2980 Reusing old log C:\heratalk\herasistemas\HeraTalk\backend\.wwebjs_auth\session-bd_21\Default\Local Storage\leveldb/000500.log 
+2022/07/02-00:03:48.488 2974 Level-0 table #504: started
+2022/07/02-00:03:48.496 2974 Level-0 table #504: 9172 bytes OK
+2022/07/02-00:03:48.501 2974 Delete type=0 #500
+2022/07/02-00:03:48.501 217c Compacting 4@0 + 1@1 files
+2022/07/02-00:03:48.508 217c Generated table #505@0: 12 keys, 20803 bytes
+2022/07/02-00:03:48.508 217c Compacted 4@0 + 1@1 files => 20803 bytes
+2022/07/02-00:03:48.511 217c compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/07/02-00:03:48.513 217c Delete type=2 #493
+2022/07/02-00:03:48.513 217c Delete type=2 #495
+2022/07/02-00:03:48.513 217c Delete type=2 #498
+2022/07/02-00:03:48.513 217c Delete type=2 #501
+2022/07/02-00:03:48.513 217c Delete type=2 #504
+2022/07/02-06:25:48.487 14c8 Level-0 table #507: started
+2022/07/02-06:25:48.494 14c8 Level-0 table #507: 8621 bytes OK
+2022/07/02-06:25:48.499 14c8 Delete type=0 #503
+2022/07/02-12:48:48.489 1d58 Level-0 table #509: started
+2022/07/02-12:48:48.488 1d58 Level-0 table #509: 8823 bytes OK
+2022/07/02-12:48:48.493 1d58 Delete type=0 #506
+2022/07/02-19:11:48.479 14c8 Level-0 table #511: started
+2022/07/02-19:11:48.487 14c8 Level-0 table #511: 8654 bytes OK
+2022/07/02-19:11:48.491 14c8 Delete type=0 #508

@@ -80,13 +80,14 @@ const TicketActionButtons = ({ ticket, handleClose }) => {
 	const handleUpdateTicketStatus = async (e, status, userId) => {
 		setLoading(true);
 		try {
+
 			await api.put(`/tickets/${ticket.id}`, {
 				status: status,
 				userId: userId || null,
 			});
 
 			setLoading(false);
-			if (status === "open") {
+			if (status === "open") {			
 				history.push(`/tickets/${ticket.id}`);
 			} else {
 				history.push("/tickets");
@@ -189,7 +190,7 @@ const TicketActionButtons = ({ ticket, handleClose }) => {
 			)}
 			{ticket.status === "pending" && (
 				<ButtonWithSpinner
-					style={{ backgroundColor: 'black', color: 'white', fontSize: '9px', margin: '2px', borderRadius: '0px' }}
+					style={{ backgroundColor: 'black', color: 'white', fontSize: '10px', margin: '2px', borderRadius: '5px', right: '30px' }}
 					loading={loading}
 					size="small"
 					variant="contained"

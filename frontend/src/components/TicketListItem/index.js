@@ -133,7 +133,8 @@ const useStyles = makeStyles(theme => ({
 		paddingLeft: 5,
 		paddingRight: 5,
 		borderRadius: 10,
-		fontSize: "0.9em"
+		fontSize: "0.9em",
+		fontWeight: "900"
 	},
 }));
 
@@ -150,6 +151,24 @@ const TicketListItem = ({ ticket }) => {
 			isMounted.current = false;
 		};
 	}, []);
+			// Nome Responsável  *********************************************************************************************************************
+	const [zdg, setZDG] = useState(null);
+
+	if (ticket.status === "pending"){
+
+	} else {
+
+	const fetchZDG = async () => {
+		try {
+			const { data } = await api.get("/users/" + ticket.userId, {
+			});
+			setZDG(data['name']);
+		} catch (err) {
+			toastError(err);
+		}
+		};
+	fetchZDG();
+	}
 
 	const handleAcepptTicket = async id => {
 		setLoading(true);
@@ -320,9 +339,8 @@ const TicketListItem = ({ ticket }) => {
 									)}
 								</Typography>
 							)}
-							{ticket.whatsappId && (
-								
-								<div className={classes.userTag} title={i18n.t("ticketsList.connectionTitle")}>{"Atend: " + ticket.userId}</div>
+							{ticket.whatsapp && (
+								<div className={classes.userTag} title={i18n.t("ticketsList.connectionTitle")}>{zdg}</div>
 							)}
 						</span>
 					}

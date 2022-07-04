@@ -19,7 +19,7 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 
 import MainListItems from "./MainListItems";
-//import NotificationsPopOver from "../components/NotificationsPopOver";
+import NotificationsPopOver from "../components/NotificationsPopOver";
 import UserModal from "../components/UserModal";
 import { AuthContext } from "../context/Auth/AuthContext";
 import BackdropLoading from "../components/BackdropLoading";
@@ -222,7 +222,7 @@ const LoggedInLayout = ({ children }) => {
           >
             Hera-Talk
           </Typography>
-
+          {user.id && <NotificationsPopOver />}     
           <div>
             <IconButton
               aria-label="account of current user"
